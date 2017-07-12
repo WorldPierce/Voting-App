@@ -6,6 +6,7 @@
 		<title>Clementine.js - The elegant and lightweight full stack JavaScript boilerplate.</title>
 		
 		<link href="/public/css/main.css" rel="stylesheet" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	</head>
 
 	<body>
@@ -21,7 +22,17 @@
 					</div>
 				</a>
 			</div>
+			
 		</div>
+		<div class="container">
+			<br>
+			<p class="clementine-text">Current Polls</p>
+			<ul id="polls">
+				
+			</ul>
+		</div>
+	<script type="text/javascript" src="common/ajax-functions.js"></script>
+		<script type="text/javascript" src="controllers/pollLoader.client.js"></script>
 	</body>
 
 </html>
